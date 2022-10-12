@@ -45,7 +45,7 @@ class CircleTest {
             Circle actualr = new Circle(radius[ndx]);
             assertNotSame(actualr, c);
             assertEquals(actualr, c);
-            Circle unequal_c = new Circle(radius[ndx] + 'x');
+            Circle unequal_c = new Circle(radius[ndx] + 120);
             assertNotEquals(unequal_c, c);
         }
 
